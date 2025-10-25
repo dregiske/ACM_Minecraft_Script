@@ -52,7 +52,7 @@ Now lets boot up Minecraft! Now in the launcher, we will first load into version
 4. Under the `VERSION` dropbox, pick anywhere between `release 1.14` - `release 1.14.3`.
 5. Then under `GAME DIRECTORY`, this is where you pick where the game files will be stored. This is important so take note of this later, I like to keep mine in `~/Documents`, but whatever works.
 
-Open the new world we just created. Before we can let the scripts run, lets optimize our game settings for the best data.
+Open the new world we just created. Before we can let the scripts run, lets optimize our game settings for the best data. Open the command line in Minecraft by pressing `T`.
 
 1. Set our weather and time:
 ```
