@@ -60,7 +60,7 @@ Open the new world we just created. Before we can let the scripts run, lets opti
 /weather clear
 ```
 
-2. Stop the weather and time cycles so it stays perfect forver:
+2. Stop the weather and time cycles so it stays perfect forever:
 ```
 /gamerule doDaylightCycle false
 /gamerule doWeatherCycle false
@@ -77,7 +77,7 @@ Open the new world we just created. Before we can let the scripts run, lets opti
 ## 3. player_script.py
 
 Setup is done! Now we can begin grabbing data. I like to keep my game windowed, to see the progress displayed in the IDE terminal (I have setup print statements that show progress on screenshots, at your convenience).  
-Let's let our `player_script.py` run to get the data. At the top of the file, I set up the settings section, here we can tweak:
+At the top of the file, I set up the settings section, here we can tweak:
 - how many screenshots we want to take,
 - the range at which we want our player to teleport to,
 - and the time we set the script to sleep to allow our computer to render the chunk. It is important that we give the computer time to render the chunk so the information is stored properly in the game folders.
@@ -96,6 +96,8 @@ python player_script.py
 
 Let this run for as much as you like. Running it multiple times will not affect previous data, everything will be stored incrementally in the specified directory labelled in the `SETTINGS` section.
 
+Use `control + c` to interrupt the script (macOS).
+
 
 ## 4. sort_photos.py
 
@@ -107,7 +109,7 @@ Now that we have our data, lets sort it!. This `main()` function takes at least 
 
 When calling the function, it will look like this:
 ```
-python sort_photos.py \
+python sort_photos.py \					# modify to your filepaths
   --world "~/Documents/saves/ACM" \
   --src "~/Desktop/biome_screenshots" \
   --out "~/Desktop/final_screenshots"
