@@ -107,9 +107,9 @@ Now that we have our data, lets sort it!. This `main()` function takes at least 
 3. `arg[2] = where-the-current-screenshots-are`
 4. `arg[3] = where-we-want-the-screenshots-to-go`
 
-When calling the function, it will look like this:
+When calling the function, it will look like this (modify to your filepaths):
 ```
-python sort_photos.py \					# modify to your filepaths
+python sort_photos.py \
   --world "~/Documents/saves/ACM" \
   --src "~/Desktop/biome_screenshots" \
   --out "~/Desktop/final_screenshots"
