@@ -3,14 +3,7 @@ This is a program to pull biome names
 from specified x and z coordinates using amulet
 with a cache system for faster lookups
 
-Documentation:
-https://amulet-core.readthedocs.io/en/latest/getting_started/read_chunk.html
-https://amulet-nbt.readthedocs.io/en/3.0/api_reference/index.html
-
 This program works for 1.13-1.15 Minecraft (2D chunk data)
-
-Required dependencies:
-pip install amulet-core amulet-leveldb amulet-nbt numpy
 '''
 
 import os, shutil, tempfile

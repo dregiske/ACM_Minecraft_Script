@@ -1,8 +1,6 @@
 '''
-This is a player script that automatically
-sets weather and time settings, teleports to
-randomized locations, and screenshots the
-players screen
+This is a player script that teleports to randomized
+locations, and screenshots the players screen.
 '''
 
 import os, time, random, shutil, sys

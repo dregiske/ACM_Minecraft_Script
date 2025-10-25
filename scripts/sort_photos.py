@@ -1,32 +1,6 @@
 '''
 Move .png screenshots named: {x}_{z}_{rand}.png
 into folders by biome while renaming them to: {rand}.png.
-
-Usage:
-python sort_photos.py \
-  --world "~/Documents/saves/ACM" \
-  --src "~/Desktop/biome_screenshots" \
-  --out "~/Desktop/minecraft-biome-dev/data/other-data"
-
-FOR ACM
-python sort_photos.py \
-  --world "~/Documents/saves/ACM" \
-  --src "~/Desktop/biome_screenshots" \
-  --out "~/Desktop/final_screenshots" \
-  --dry-run
-
-FOR ACM_mushroom_fields
-python sort_photos.py \
-  --world "~/Documents/saves/ACM_mushroom_fields" \
-  --src "~/Desktop/biome_screenshots" \
-  --out "~/Desktop/final_screenshots"
-
-Dry run:
-python sort_photos.py \
-  --world "~/Documents/saves/ACM" \
-  --src "~/Desktop/biome_screenshots" \
-  --out "~/Desktop/minecraft-biome-dev/data/other-data" \
-  --dry-run
 '''
 
 from __future__ import annotations
