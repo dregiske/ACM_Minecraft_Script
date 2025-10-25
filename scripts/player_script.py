@@ -3,34 +3,9 @@ This is a player script that automatically
 sets weather and time settings, teleports to
 randomized locations, and screenshots the
 players screen
-
-How to use:
-1) run env
-python -m venv venv
-source venv/bin/activate
-
-2) install dependencies:
-pip install pyautogui pyobjc
-
-3) run program
-python player_script.py
-
-4) switch to minecraft and let it run
-
-! If you're having issues with pyautogui,
-make sure accessibility is on
-FOR MACOS:
-System Settings > Privacy & Security > Accessibility > Toggle terminal on
-
-For optimal screenshot data (in minecraft world), do:
-/time set noon
-/weather clear
-/gamerule doDaylightCycle false
-/gamerule doWeatherCycle false
-/kill @e[type=!minecraft:player]
 '''
 
-import os, time, random, shutil, sys, platform
+import os, time, random, shutil, sys
 import pyautogui
 
 
